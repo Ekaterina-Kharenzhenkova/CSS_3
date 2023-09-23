@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+p, li {
+    color: #707070;
+    }
+h1 {
+    color: #DB0038
+    }
+h2 {
+    color: #3998A3;
+}
+h3 {
+   color: #474747
+}
+.hero {
+background-color: #f4f4f4;
+text-align: center;
+text-shadow: 2px 0px 1px #474747;
+padding-left: 50px;
+padding-right: 50px;
+}
+li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+span {
+   color: #F4B400; 
+}
+.rating {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+body{
+    font-family: happy monkey;
+}
