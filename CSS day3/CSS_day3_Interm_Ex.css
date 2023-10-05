@@ -1,0 +1,35 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    border: 5px solid black; 
+    width: 500px;
+    padding: 5px;
+}
+
+.bold_line{
+    height: 7px;
+    background-color: black;
+}
+.line{
+    height: 1px;
+    background-color: black;
+}
+.middle_line{
+    height: 4px;
+    color: black;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

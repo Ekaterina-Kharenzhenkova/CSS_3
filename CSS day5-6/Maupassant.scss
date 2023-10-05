@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'archisticobold';
+    src: url('Archistico_Bold-webfont.eot');
+    src: url('Archistico_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Archistico_Bold-webfont.woff2') format('woff2'),
+         url('Archistico_Bold-webfont.woff') format('woff'),
+         url('Archistico_Bold-webfont.ttf') format('truetype'),
+         url('Archistico_Bold-webfont.svg#archisticobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('Calligraffiti-webfont.eot');
+    src: url('Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Calligraffiti-webfont.woff2') format('woff2'),
+         url('Calligraffiti-webfont.woff') format('woff'),
+         url('Calligraffiti-webfont.ttf') format('truetype'),
+         url('Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+nav{
+    background-color: #406EF4; 
+    padding: 2%;
+    border: #406EF4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    }
+ul{
+    list-style-type: none;
+    background-color: #406EF4;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-family: archisticobold;
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+}
+li a:hover{
+    font-size: 40px;
+}
+
+body{
+    background-size: 200px 200px;
+    background-image: linear-gradient(135deg,  rgba(77,77,77,1) 7%,rgba(61,61,61,1) 11%,rgba(61,61,61,1) 11%,rgba(61,61,61,1) 14%,rgba(61,61,61,1) 15%,rgba(61,61,61,1) 15%,rgba(24,24,24,1) 27%,rgba(24,24,24,1) 29%,rgba(88,88,88,1) 47%,rgba(88,88,88,1) 48%,rgba(38,38,38,1) 52%,rgba(24,24,24,1) 55%,rgba(15,15,15,1) 60%,rgba(0,0,0,1) 64%,rgba(0,0,0,1) 64%,rgba(37,37,37,1) 85%,rgba(37,37,37,1) 85%,rgba(88,88,88,1) 91%,rgba(88,88,88,1) 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    min-height: 100hv;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    flex-flow: row;
+    justify-content:flex-start;
+    margin-left: 10%;
+    margin-top: 20%;
+    color: whitesmoke;
+    font-family: archisticobold;
+    font-size: 50px;
+}
+
+img {
+    float: right;
+}
+
+p{
+display: flex;
+flex-flow: row;
+text-align: center;
+justify-content: center;
+color: whitesmoke;
+font-family: calligraffitiregular;
+font-size: 30px;
+}
+
+footer{
+    background-color: #919CA0;
+    /*display: flex;
+    flex-flow: row;
+    justify-content: center;
+    */
+    
+    margin-top: auto 0;
+    font-size: 30px;
+    color: #333;
+    font-family: archisticobold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7rem;
+}
